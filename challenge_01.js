@@ -9,12 +9,25 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
-let x, y;
-x = prompt("Zahl1");
-y = prompt("Zahl2");
-x = parseInt(x);
-y = parseInt(y);
+//meine Lösung//
 
-let summe;
-summe = x + y;
-console.log("Ergebnis: " + summe);
+// let x, y;
+// x = prompt("Zahl1");
+// y = prompt("Zahl2");
+// x = parseInt(x);
+// y = parseInt(y);
+
+// let summe;
+// summe = x + y;
+// console.log("Die Summe der Zahlen ist: " + summe);
+
+
+// Hr. Schmidt´s Lösung: //
+
+let Zahl1, Zahl2, summe;
+
+Zahl1 = parseInt(prompt("Zahl 1: "));
+Zahl2 = parseInt(prompt("Zahl 2: "));
+summe = Zahl1 + Zahl2;
+
+console.log("Die Summe der Zahlen ist: " + summe);
